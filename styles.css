@@ -970,3 +970,32 @@ body {
         font-size: 1rem;
     }
 }
+
+/* ===== Responsive Design for Mobile ===== */
+@media (max-width: 768px) {
+    .container, .nav-container {
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .logo-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
